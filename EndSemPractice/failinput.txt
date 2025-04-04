@@ -1,0 +1,11 @@
+; Sample PIC Assembly Code
+    MOVLW  0x1A     ; Load WREG with literal 0x1A
+    MOVWF  PORTB    ; Move WREG to PORTB
+    ADDWF  WREG, F  ; Add WREG to F and store in F
+LOOP:
+    INCF   WREG, F  ; Increment WREG
+    CALL   SUBR     ; Call subroutine
+    GOTO   LOOP     ; Infinite loop
+
+SUBR:
+    MOVLW  0x05     ; Load WREG with 0x05
