@@ -1,0 +1,14 @@
+# dont keep this
+@arr = (1, 2, 3);
+
+sub square {
+  $result = $arr[0] * $arr[0]; # neither should you for this
+}
+
+if ($arr[1] + 4) {
+  square();
+} elsif($arr[2] + 1) { 
+    $result = 1;
+} else {
+  $result = 0;
+}
