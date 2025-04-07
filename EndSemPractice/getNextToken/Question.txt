@@ -13,8 +13,7 @@ $a = 5 + 3 * ($b - 2);
 
 
 2. If-Else statements
-
-if ($x > 10) {
+if (1) {
   $y = $x * 2;
 } else {
   $y = 0;

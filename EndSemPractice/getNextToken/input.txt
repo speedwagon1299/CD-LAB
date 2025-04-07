@@ -2,7 +2,7 @@
 @arr = (1, 2, 3);
 
 sub square {
-  $result = $arr[0] * $arr[0]; # neither should you for this
+  $result = $arr[0] * $arr[0]; 
 }
 
 if ($arr[1] + 4) {
