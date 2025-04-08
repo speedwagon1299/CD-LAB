@@ -1,0 +1,5 @@
+record my_rec {
+  int a, b[100];
+  static char c;
+  bool f = false;
+}

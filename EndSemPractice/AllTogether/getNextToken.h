@@ -164,6 +164,7 @@ struct Token* getNum(char in) {
 
 struct Token* getToken() {
     if(ungetFlag) {
+        ungetFlag = 0;
         return lastToken;
     }
     char c = fgetc(fp);
