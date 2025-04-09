@@ -1,0 +1,11 @@
+function main() {
+  int x;
+  bool flag = true;
+  x = 10;
+
+  if (flag) {
+    x = 20;
+  } else {
+    x = 30;
+  }
+}
