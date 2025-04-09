@@ -1,4 +1,4 @@
-function main() {
+function main(int f, char h) {
   int x;
   bool flag = true;
   x = 10;

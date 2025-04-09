@@ -21,7 +21,7 @@ FILE* fp = NULL;
 int row = 1, col = 1, ind = 0, ungetFlag = 0;
 char buf[100];
 struct Token* lastToken = NULL;
-char keywords[7][10] = {"int", "bool", "function", "true", "false", "if", "else"};
+char keywords[8][10] = {"char", "int", "bool", "function", "true", "false", "if", "else"};
 
 void ungetToken() {
     ungetFlag = 1;
